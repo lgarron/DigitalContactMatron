@@ -5,9 +5,10 @@ Since I often work with new teams of people, I'd like to be able to generate imp
 
 ## Usage
 
-Update the data in `sample_contacts.csv`, e.g. via Google Docs or Excel.
+Prepare a spreadsheet (exported to CSV) with the following first row: First Name,Last Name,Email,Phone,Organization,Title
+You can import `sample_contacts.csv` into Google Docs or Excel and export to CSV again to make this easier. Alternately, you could adapt an existing spreadsheet to have the same format and export it to CSV.
 
-Use this to create `sample_contacts.csv.vcf`
+Use this to create `sample_contacts.csv.vcf`:
 
     ./DigitalContactMatron.py sample_contacts.csv
 
