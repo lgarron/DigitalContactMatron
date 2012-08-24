@@ -5,7 +5,16 @@ Since I often work with new teams of people, I'd like to be able to generate imp
 
 ## Usage
 
-N/A as of yet.
+Update the data in `sample_contacts.csv`, e.g. via Google Docs or Excel.
+
+Use this to create `sample_contacts.csv.vcf`
+
+    ./DigitalContactMatron.py sample_contacts.csv
+
+Or specify the out-file:
+
+    ./DigitalContactMatron.py sample_contacts.csv -o contacts.vcf
+
 
 ## The Name
 
